@@ -121,7 +121,7 @@ ul {
 }
 
 footer {
-    margin-top: auto;
+    margin-top: 200px;
     text-align: center;
     background-color: #00cdba;
     margin-left: 70px;
@@ -146,5 +146,9 @@ input {
 .radio {
     width: auto;
     height: auto;
-    margin-bottom: 20px;
+}
+
+.send {
+    width: auto;
+    height: auto;
 }
