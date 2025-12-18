@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+a {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #dac;
+}
+
+.bg {
+    height: 553.5px;
+    background-image: url(images/header_kitty.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.flex-container-bg {
+    display: flex;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: column;
+    border: 1px solid #272727;
+    margin: auto;
+    width: 70%;
+    background-color: rgba(60, 60, 60, 0.8);
+}
+
+.flex-container-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 20px;
+    padding-top: 0px;
+    border: solid 1px white;
+}
+
+.lyrics {
+    border: white 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #222;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+}
+
+footer {
+    margin-top: 20px;
+}

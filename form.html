@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Newsletter form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="bg">
+        <div style="height: 240px;"></div>
+        <section class="flex-container">
+            <h1>Subscribe to the newsletter!</h1>
+
+            <form action="/action_page.php">
+                <!--Camp requerit per al nom-->
+                <label for="fname">Name:* </label>
+                <input type="text" id="fname" name="fname" required><br>
+
+                <!--Camp per al cognom-->
+                <label for="lname">Last name: </label>
+                <input type="text" id="lname" name="lname"><br>
+
+                <!--Camp requerit per al email-->
+                <label for="email">Email:* </label>
+                <input type="email" id="email" name="email" required><br>
+
+                <!--Camp per a la data de naixement-->
+                <label for="age">Date of birth: </label>
+                <input type="date" id="age" name="age"><br>
+
+                <!--Camp ràdio per al gènere-->
+                <label>Gender</label><br>
+                <input class="radio" type="radio" id="man" name="gender">
+                <label for="man">Man</label>
+                <input class="radio" type="radio" id="woman" name="gender">
+                <label for="woman">Woman</label>
+                <input class="radio" type="radio" id="none" name="gender">
+                <label for="none">Prefer not to say</label><br>
+
+                <!--Camp checkbox per a donar consentiment a la newsletter-->
+                <input class="radio" type="checkbox" id="consent" style="width: 20px">
+                <label for="consent">I agree to receive email about the latest news and understand I can unsubscribe at any time.</label>
+            </form>
+
+        </section>
+    </div>
+    <footer>
+        <a href="index.html"><b>&lt; back to main</b></a>
+    </footer>
+</body>
+</html>
